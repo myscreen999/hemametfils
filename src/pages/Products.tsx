@@ -161,7 +161,7 @@ const Products = () => {
             >
               <div className="aspect-w-16 aspect-h-12 overflow-hidden">
                 <img
-                  src="https://i.postimg.cc/9f4fzpb7/Boutargue-Poutargue-Mulet-300x300.jpg"
+                  src="https://i.postimg.cc/x8Zxj91H/IMG-4902.jpg"
                   alt="Œufs de Mulet (Boutargue)"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                 />

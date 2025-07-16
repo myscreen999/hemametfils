@@ -74,14 +74,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold text-slate-800 mb-2">Téléphone</h3>
-                      <div className="flex items-center space-x-2 mb-1">
-                        <span>🇲🇷</span>
-                        <p className="text-slate-600">Mauritanie: 00222 20 16 16 12</p>
-                      </div>
-                      <div className="flex items-center space-x-2 mb-1">
-                        <span>🇨🇦</span>
-                        <p className="text-slate-600">Canada: +1 514 348 5432</p>
-                      </div>
+                      <p className="text-slate-600 mb-1">📞 0022220161612 (Mauritanie)</p>
+                      <p className="text-slate-600 mb-1">📞 +15143485432 (Canada)</p>
                       <p className="text-sm text-slate-500">Disponible 7j/7 de 6h à 20h</p>
                     </div>
                   </div>
@@ -92,6 +86,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold text-slate-800 mb-2">Email</h3>
+                      <p className="text-slate-600 mb-1">📧 info@hemametfils.com</p>
                       <p className="text-slate-600 mb-1">contact@hemamfils.mr</p>
                       <p className="text-slate-600 mb-1">export@hemamfils.mr (Export)</p>
                       <p className="text-sm text-slate-500">Réponse sous 24h</p>
@@ -104,7 +99,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold text-slate-800 mb-2">WhatsApp</h3>
-                      <p className="text-slate-600 mb-1">+1 514 348 5432</p>
+                      <p className="text-slate-600 mb-1">📱 0022220161612</p>
                       <p className="text-sm text-slate-500">Chat instantané disponible</p>
                     </div>
                   </div>

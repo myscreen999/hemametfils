@@ -76,7 +76,7 @@ const Export = () => {
             data-aos-delay="500"
             className="text-xl md:text-2xl max-w-3xl mx-auto text-cyan-100"
           >
-            Solutions logistiques complètes pour l'export de produits de la mer vers l'Europe et l'Afrique
+            L'exportation de produits de la mer vers le monde entier
           </p>
         </div>
       </section>

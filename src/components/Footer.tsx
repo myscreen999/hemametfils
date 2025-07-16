@@ -79,20 +79,17 @@ const Footer = () => {
             <div className="space-y-3 text-slate-300 text-sm">
               <div className="flex items-center space-x-3">
                 <Phone size={16} className="text-cyan-400" />
-                    <div className="flex items-center space-x-2 mb-1">
-                      <span>🇲🇷</span>
-                      <span>Mauritanie: 00222 20 16 16 12</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <span>🇨🇦</span>
-                      <span>Canada: +1 514 348 5432</span>
-                    </div>
-                  <span>+15143485432</span>
+                <div>
+                  <div>📞 0022220161612 (Mauritanie)</div>
+                  <div>📞 +15143485432 (Canada)</div>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={16} className="text-cyan-400" />
-                <span>contact@hemamfils.mr</span>
+                <div>
+                  <div>📧 info@hemametfils.com</div>
+                  <div>contact@hemamfils.mr</div>
+                </div>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin size={16} className="text-cyan-400" />

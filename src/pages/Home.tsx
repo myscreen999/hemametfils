@@ -217,8 +217,8 @@ const Home = () => {
               data-aos-delay="900"
               className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-8 hover:scale-105 transition-transform duration-300 text-white"
             >
-              <AnimatedCounter target={500} suffix="+" />
-              <p className="text-white text-lg font-medium mt-2">Tonnes d'Œufs de Mulet/An</p>
+              <AnimatedCounter target={100} suffix=" Tonnes" />
+              <p className="text-white text-lg font-medium mt-2">d'Œufs de Mulet/An</p>
             </div>
           </div>
         </div>
