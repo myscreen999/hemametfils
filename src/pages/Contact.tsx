@@ -74,8 +74,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold text-slate-800 mb-2">Téléphone</h3>
-                      <p className="text-slate-600 mb-1">📞 0022220161612 (Mauritanie)</p>
-                      <p className="text-slate-600 mb-1">📞 +15143485432 (Canada)</p>
+                      <p className="text-slate-600 mb-1">🇲🇷 +222 20161612 (Mauritanie)</p>
+                      <p className="text-slate-600 mb-1">🇨🇦 +15143485432 (Canada)</p>
                       <p className="text-sm text-slate-500">Disponible 7j/7 de 6h à 20h</p>
                     </div>
                   </div>
@@ -99,7 +99,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold text-slate-800 mb-2">WhatsApp</h3>
-                      <p className="text-slate-600 mb-1">📱 0022220161612</p>
+                      <p className="text-slate-600 mb-1">📱 +222 20161612</p>
                       <p className="text-sm text-slate-500">Chat instantané disponible</p>
                     </div>
                   </div>

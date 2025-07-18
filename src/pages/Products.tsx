@@ -153,11 +153,11 @@ const Products = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="flex justify-center">
             <div 
               data-aos="fade-up"
               data-aos-delay="300"
-              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105 group"
+              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105 group max-w-md"
             >
               <div className="aspect-w-16 aspect-h-12 overflow-hidden">
                 <img
@@ -216,37 +216,6 @@ const Products = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div 
-              data-aos="fade-up"
-              data-aos-delay="300"
-              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105 group"
-            >
-              <div className="aspect-w-16 aspect-h-12 overflow-hidden">
-                <img
-                  src="https://i.postimg.cc/hPRFF0NG/c3aca7f5a5d220aef25e34c07ba1faf6.jpg"
-                  alt="Dorade Royale"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-slate-800 mb-3">Dorade Royale</h3>
-                <p className="text-slate-600 mb-4">Poisson noble aux chairs fines, pêché dans les eaux atlantiques mauritaniennes</p>
-                <div className="space-y-2">
-                  <div className="flex items-center space-x-2">
-                    <CheckCircle className="text-green-500" size={16} />
-                    <span className="text-sm text-slate-600">Fraîcheur garantie</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <CheckCircle className="text-green-500" size={16} />
-                    <span className="text-sm text-slate-600">Taille premium</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <CheckCircle className="text-green-500" size={16} />
-                    <span className="text-sm text-slate-600">Conditionnement sur glace</span>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <div 
               data-aos="fade-up"
@@ -280,37 +249,6 @@ const Products = () => {
               </div>
             </div>
 
-            <div 
-              data-aos="fade-up"
-              data-aos-delay="700"
-              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105 group"
-            >
-              <div className="aspect-w-16 aspect-h-12 overflow-hidden">
-                <img
-                  src="https://i.postimg.cc/dVBcjTHV/2038f7ce08ad547031a37da3d0f8251d.jpg"
-                  alt="Crevettes Roses"
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-slate-800 mb-3">Crevettes Roses</h3>
-                <p className="text-slate-600 mb-4">Crevettes fraîches pêchées quotidiennement dans nos zones privilégiées</p>
-                <div className="space-y-2">
-                  <div className="flex items-center space-x-2">
-                    <CheckCircle className="text-green-500" size={16} />
-                    <span className="text-sm text-slate-600">Calibre sélectionné</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <CheckCircle className="text-green-500" size={16} />
-                    <span className="text-sm text-slate-600">Fraîcheur optimale</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <CheckCircle className="text-green-500" size={16} />
-                    <span className="text-sm text-slate-600">Conditionnement glacé</span>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <div 
               data-aos="fade-up"
@@ -351,7 +289,7 @@ const Products = () => {
             >
               <div className="aspect-w-16 aspect-h-12 overflow-hidden">
                 <img
-                  src="https://i.postimg.cc/fRq3T5Bq/IMG-7274.jpg"
+                  src="https://i.postimg.cc/yYZSGc5K/2025-07-18-T105558-369.png"
                   alt="Poulpe"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                 />

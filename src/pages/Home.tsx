@@ -276,26 +276,8 @@ const Home = () => {
             >
               <div className="aspect-w-16 aspect-h-12 overflow-hidden">
                 <img
-                  src="https://i.postimg.cc/90ZZthBN/Fishes-900x473.jpg"
-                  alt="Fruits de mer"
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-slate-800 mb-3">Fruits de Mer</h3>
-                <p className="text-slate-600">Crevettes, langoustes et mollusques fraîchement pêchés selon les méthodes artisanales respectueuses.</p>
-              </div>
-            </div>
-
-            <div 
-              data-aos="fade-up"
-              data-aos-delay="700"
-              className="group bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105"
-            >
-              <div className="aspect-w-16 aspect-h-12 overflow-hidden">
-                <img
-                  src="https://i.postimg.cc/6qvLjRBc/1690460145-0.webp"
-                  alt="Export qualité"
+                  src="https://i.postimg.cc/T3strdV4/IMG-7230.jpg"
+                  alt="Qualité Export"
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
@@ -304,6 +286,7 @@ const Home = () => {
                 <p className="text-slate-600">Produits conditionnés selon les standards internationaux pour l'export vers l'Europe et l'Afrique.</p>
               </div>
             </div>
+
           </div>
 
           <div 
