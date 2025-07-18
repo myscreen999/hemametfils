@@ -231,51 +231,214 @@ const Boutargue = () => {
       <section 
         data-aos="fade-up"
         data-aos-offset="200"
-        className="py-20 bg-white"
+        className="py-20 bg-slate-50"
       >
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div 
-                data-aos="fade-right"
-                data-aos-delay="300"
-                className="space-y-6"
-              >
-                <h2 className="text-4xl font-bold text-slate-800">De la Mer à Votre Table</h2>
-                <div className="space-y-4 text-lg text-slate-600 leading-relaxed">
-                  <p>
-                    <strong className="text-slate-800">Extraction :</strong> Les œufs de mulet sont délicatement extraits 
-                    des poissons fraîchement pêchés dans nos zones privilégiées.
-                  </p>
-                  <p>
-                    <strong className="text-slate-800">Salage :</strong> Un salage minutieux selon des techniques 
-                    traditionnelles préserve les saveurs et assure une conservation optimale.
-                  </p>
-                  <p>
-                    <strong className="text-slate-800">Séchage :</strong> Un processus de séchage contrôlé développe 
-                    les arômes complexes caractéristiques de la poutargue.
-                  </p>
-                  <p>
-                    <strong className="text-slate-800">Conditionnement :</strong> Emballage soigné pour préserver 
-                    la qualité jusqu'à la livraison chez nos clients internationaux.
-                  </p>
-                </div>
+          <div 
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
+              Processus de Production Artisanale
+            </h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              Découvrez les 6 étapes essentielles de transformation des œufs de mulet en boutargue d'exception
+            </p>
+          </div>
+
+          <div className="max-w-7xl mx-auto space-y-16">
+            {/* Step 1 */}
+            <div 
+              data-aos="fade-right"
+              data-aos-delay="300"
+              className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
+            >
+              <div className="space-y-6">
+                <h3 
+                  className="text-3xl font-bold text-cyan-600 transform hover:scale-105 transition-transform duration-300"
+                  style={{ transform: 'perspective(1000px) rotateY(-5deg)' }}
+                >
+                  1. Récolte des œufs de mulet (mulet femelle)
+                </h3>
+                <p className="text-lg text-slate-600 leading-relaxed">
+                  L'ovaire contenant les œufs est prélevé intact sur le poisson (généralement le mulet noir ou mulet jaune). 
+                  Il est crucial de ne pas abîmer la poche d'œufs (la rogue) pendant la récolte.
+                </p>
               </div>
-              
-              <div 
-                data-aos="fade-left"
-                data-aos-delay="500"
-                className="relative"
-              >
+              <div className="grid grid-cols-2 gap-4">
                 <img
-                  src="https://i.postimg.cc/x8Zxj91H/IMG-4902.jpg"
-                  alt="Poutargue HEMAM & FILS"
-                  className="rounded-lg shadow-xl hover:scale-105 transition-transform duration-500"
+                  src="https://i.postimg.cc/YSqVPfcw/IMG-7313.jpg"
+                  alt="Récolte des œufs de mulet 1"
+                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute -bottom-6 -right-6 bg-cyan-600 text-white p-6 rounded-lg shadow-lg">
+                <img
+                  src="https://i.postimg.cc/bvCMfD8S/IMG-7317.jpg"
+                  alt="Récolte des œufs de mulet 2"
+                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            </div>
+
+            {/* Step 2 */}
+            <div 
+              data-aos="fade-left"
+              data-aos-delay="500"
+              className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
+            >
+              <div className="grid grid-cols-2 gap-4 lg:order-1">
+                <img
+                  src="https://i.postimg.cc/pXCJSNPp/39bb1b8f-78d8-4816-9025-d908daef55bd.jpg"
+                  alt="Classement et tri 1"
+                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                />
+                <img
+                  src="https://i.postimg.cc/9f6d9CYN/fbd3eb81-b08a-42d2-8646-21b1e0327d06.jpg"
+                  alt="Classement et tri 2"
+                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="space-y-6 lg:order-2">
+                <h3 
+                  className="text-3xl font-bold text-blue-600 transform hover:scale-105 transition-transform duration-300"
+                  style={{ transform: 'perspective(1000px) rotateY(5deg)' }}
+                >
+                  📦 2. Classement / Tri
+                </h3>
+                <p className="text-lg text-slate-600 leading-relaxed">
+                  Le tri des œufs de mulet par calibre (taille/poids) est une étape essentielle dans la production 
+                  de boutargue artisanale de qualité.
+                </p>
+              </div>
+            </div>
+
+            {/* Step 3 */}
+            <div 
+              data-aos="fade-right"
+              data-aos-delay="700"
+              className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
+            >
+              <div className="space-y-6">
+                <h3 
+                  className="text-3xl font-bold text-orange-600 transform hover:scale-105 transition-transform duration-300"
+                  style={{ transform: 'perspective(1000px) rotateY(-5deg)' }}
+                >
+                  🧂 3. Salaison
+                </h3>
+                <p className="text-lg text-slate-600 leading-relaxed">
+                  Les poches d'œufs sont recouvertes de gros sel marin pendant quelques heures... 
+                  retournées régulièrement pour une salaison uniforme.
+                </p>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <img
+                  src="https://i.postimg.cc/rFVSxh5c/IMG-7311.jpg"
+                  alt="Salaison 1"
+                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                />
+                <img
+                  src="https://i.postimg.cc/vmV9bCw7/IMG-7310.jpg"
+                  alt="Salaison 2"
+                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            </div>
+
+            {/* Step 4 */}
+            <div 
+              data-aos="fade-left"
+              data-aos-delay="900"
+              className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
+            >
+              <div className="grid grid-cols-2 gap-4 lg:order-1">
+                <img
+                  src="https://i.postimg.cc/kMfV37t3/IMG-7312.jpg"
+                  alt="Désalage et rinçage 1"
+                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                />
+                <img
+                  src="https://i.postimg.cc/Bn1tKD74/2025-07-18-T015544-640.png"
+                  alt="Désalage et rinçage 2"
+                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="space-y-6 lg:order-2">
+                <h3 
+                  className="text-3xl font-bold text-teal-600 transform hover:scale-105 transition-transform duration-300"
+                  style={{ transform: 'perspective(1000px) rotateY(5deg)' }}
+                >
+                  💧 4. Désalage et rinçage
+                </h3>
+                <p className="text-lg text-slate-600 leading-relaxed">
+                  Après salaison, les œufs sont rincés pour enlever l'excès de sel. 
+                  Parfois un léger pressage est appliqué.
+                </p>
+              </div>
+            </div>
+
+            {/* Step 5 */}
+            <div 
+              data-aos="fade-right"
+              data-aos-delay="1100"
+              className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
+            >
+              <div className="space-y-6">
+                <h3 
+                  className="text-3xl font-bold text-green-600 transform hover:scale-105 transition-transform duration-300"
+                  style={{ transform: 'perspective(1000px) rotateY(-5deg)' }}
+                >
+                  🌬 5. Séchage
+                </h3>
+                <p className="text-lg text-slate-600 leading-relaxed">
+                  Les rogues sont suspendues ou posées sur des claies... jusqu'à obtention d'une texture ferme et couleur ambrée.
+                </p>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <img
+                  src="https://i.postimg.cc/T1w3YWW8/IMG-7264-1.jpg"
+                  alt="Séchage 1"
+                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                />
+                <img
+                  src="https://i.postimg.cc/8z8NxYwg/IMG-7315.jpg"
+                  alt="Séchage 2"
+                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            </div>
+
+            {/* Step 6 */}
+            <div 
+              data-aos="fade-left"
+              data-aos-delay="1300"
+              className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
+            >
+              <div className="grid grid-cols-2 gap-4 lg:order-1">
+                <img
+                  src="https://i.postimg.cc/NM0c1vGm/IMG-7212.jpg"
+                  alt="Produit final 1"
+                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                />
+                <img
+                  src="https://i.postimg.cc/qRqPNcQG/IMG-7265-1.jpg"
+                  alt="Produit final 2"
+                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="space-y-6 lg:order-2">
+                <h3 
+                  className="text-3xl font-bold text-purple-600 transform hover:scale-105 transition-transform duration-300"
+                  style={{ transform: 'perspective(1000px) rotateY(5deg)' }}
+                >
+                  🧱 6. Produit final — bottarga prête
+                </h3>
+                <p className="text-lg text-slate-600 leading-relaxed">
+                  La boutargue est sèche, colorée, ferme et prête à être consommée — enrobée de cire ou sous vide.
+                </p>
+                <div className="bg-gradient-to-r from-cyan-600 to-blue-600 text-white p-6 rounded-lg shadow-lg">
                   <div className="text-center">
-                    <div className="text-2xl font-bold">Premium</div>
-                    <div className="text-sm">Qualité Export</div>
+                    <div className="text-3xl font-bold text-yellow-300 mb-2">Premium</div>
+                    <div className="text-cyan-100">Qualité Export</div>
                   </div>
                 </div>
               </div>

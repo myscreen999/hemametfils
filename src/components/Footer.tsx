@@ -6,14 +6,17 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto px-4">
         {/* Logo Section */}
-        <div className="text-center mb-8">
+        <div className="flex justify-between items-start mb-8">
+          <div className="flex-1"></div>
+          <div className="text-center">
+            <h1 className="text-2xl font-bold text-white">HEMAM & FILS</h1>
+            <p className="text-gray-400">Pêche Artisanale & Export d'Œufs de Mulet</p>
+          </div>
           <img
             src="https://i.postimg.cc/4d6shF9m/IMG-7224.png"
             alt="HEMAM & FILS"
-            className="h-16 w-auto mx-auto mb-4"
+            className="h-16 w-auto"
           />
-          <h1 className="text-2xl font-bold text-white">HEMAM & FILS</h1>
-          <p className="text-gray-400">Pêche Artisanale & Export d'Œufs de Mulet</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
