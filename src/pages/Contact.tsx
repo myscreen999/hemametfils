@@ -87,8 +87,6 @@ const Contact = () => {
                     <div>
                       <h3 className="text-xl font-semibold text-slate-800 mb-2">Email</h3>
                       <p className="text-slate-600 mb-1">📧 info@hemametfils.com</p>
-                      <p className="text-slate-600 mb-1">contact@hemamfils.mr</p>
-                      <p className="text-slate-600 mb-1">export@hemamfils.mr (Export)</p>
                       <p className="text-sm text-slate-500">Réponse sous 24h</p>
                     </div>
                   </div>

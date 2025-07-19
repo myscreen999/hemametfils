@@ -21,7 +21,7 @@ const Header = () => {
     { path: '/about', label: 'Notre Histoire' },
     { path: '/fleet', label: 'Notre Flotte' },
     { path: '/products', label: 'Nos Produits' },
-    { path: '/boutargue', label: 'Œufs de mulet (Boutargue)' },
+    { path: '/boutargue', label: 'Boutargue' },
     { path: '/export', label: 'Export & Logistique' },
     { path: '/contact', label: 'Contact' },
   ];

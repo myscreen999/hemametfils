@@ -139,199 +139,202 @@ const Boutargue = () => {
             </p>
           </div>
 
-          <div className="max-w-7xl mx-auto space-y-16">
+          <div className="max-w-6xl mx-auto space-y-12">
             {/* Step 1 */}
             <div 
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-delay="300"
-              className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
+              className="bg-white p-8 rounded-lg shadow-lg"
             >
-              <div className="space-y-6">
-                <h3 
-                  className="text-3xl font-bold text-cyan-600 transform hover:scale-105 transition-transform duration-300"
-                  style={{ transform: 'perspective(1000px) rotateY(-5deg)' }}
-                >
-                  1. Récolte des œufs de mulet (mulet femelle)
-                </h3>
-                <p className="text-lg text-slate-600 leading-relaxed">
-                  L'ovaire contenant les œufs est prélevé intact sur le poisson (généralement le mulet noir ou mulet jaune). 
-                  Il est crucial de ne pas abîmer la poche d'œufs (la rogue) pendant la récolte.
-                </p>
-              </div>
-              <div className="grid grid-cols-2 gap-4">
-                <img
-                  src="https://i.postimg.cc/YSqVPfcw/IMG-7313.jpg"
-                  alt="Récolte des œufs de mulet 1"
-                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
-                />
-                <img
-                  src="https://i.postimg.cc/bvCMfD8S/IMG-7317.jpg"
-                  alt="Récolte des œufs de mulet 2"
-                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
-                />
+              <h3 className="text-3xl font-bold text-cyan-600 mb-6">
+                🐟 1. Récolte des œufs de mulet (mulet femelle)
+              </h3>
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div className="lg:col-span-1">
+                  <p className="text-lg text-slate-600 leading-relaxed">
+                    L'ovaire contenant les œufs est prélevé intact sur le poisson (généralement le mulet noir ou mulet jaune).
+                    Il est crucial de ne pas abîmer la poche d'œufs (la rogue) pendant la récolte.
+                  </p>
+                </div>
+                <div className="lg:col-span-2 grid grid-cols-2 gap-4">
+                  <img
+                    src="https://i.postimg.cc/YSqVPfcw/IMG-7313.jpg"
+                    alt="Récolte des œufs de mulet 1"
+                    className="w-full aspect-[4/5] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                  />
+                  <img
+                    src="https://i.postimg.cc/bvCMfD8S/IMG-7317.jpg"
+                    alt="Récolte des œufs de mulet 2"
+                    className="w-full aspect-[4/5] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
               </div>
             </div>
 
             {/* Step 2 */}
             <div 
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-delay="500"
-              className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
+              className="bg-white p-8 rounded-lg shadow-lg"
             >
-              <div className="grid grid-cols-2 gap-4 lg:order-1">
-                <img
-                  src="https://i.postimg.cc/pXCJSNPp/39bb1b8f-78d8-4816-9025-d908daef55bd.jpg"
-                  alt="Classement et tri 1"
-                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
-                />
-                <img
-                  src="https://i.postimg.cc/9f6d9CYN/fbd3eb81-b08a-42d2-8646-21b1e0327d06.jpg"
-                  alt="Classement et tri 2"
-                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="space-y-6 lg:order-2">
-                <h3 
-                  className="text-3xl font-bold text-blue-600 transform hover:scale-105 transition-transform duration-300"
-                  style={{ transform: 'perspective(1000px) rotateY(5deg)' }}
-                >
-                  📦 2. Classement / Tri
-                </h3>
-                <p className="text-lg text-slate-600 leading-relaxed">
-                  Le tri des œufs de mulet par calibre (taille/poids) est une étape essentielle dans la production 
-                  de boutargue artisanale de qualité.
-                </p>
+              <h3 className="text-3xl font-bold text-cyan-600 mb-6">
+                📦 2. Classement / Tri
+              </h3>
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div className="lg:col-span-1">
+                  <p className="text-lg text-slate-600 leading-relaxed">
+                    Le tri des œufs de mulet par calibre (taille/poids) est une étape essentielle dans la production 
+                    de boutargue artisanale de qualité, surtout pour assurer un séchage homogène et une présentation uniforme.
+                  </p>
+                </div>
+                <div className="lg:col-span-2 grid grid-cols-2 gap-4">
+                  <img
+                    src="https://i.postimg.cc/pXCJSNPp/39bb1b8f-78d8-4816-9025-d908daef55bd.jpg"
+                    alt="Classement et tri 1"
+                    className="w-full aspect-[4/5] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                  />
+                  <img
+                    src="https://i.postimg.cc/9f6d9CYN/fbd3eb81-b08a-42d2-8646-21b1e0327d06.jpg"
+                    alt="Classement et tri 2"
+                    className="w-full aspect-[4/5] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
               </div>
             </div>
 
             {/* Step 3 */}
             <div 
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-delay="700"
-              className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
+              className="bg-white p-8 rounded-lg shadow-lg"
             >
-              <div className="space-y-6">
-                <h3 
-                  className="text-3xl font-bold text-orange-600 transform hover:scale-105 transition-transform duration-300"
-                  style={{ transform: 'perspective(1000px) rotateY(-5deg)' }}
-                >
-                  🧂 3. Salaison
-                </h3>
-                <p className="text-lg text-slate-600 leading-relaxed">
-                  Les poches d'œufs sont recouvertes de gros sel marin pendant quelques heures... 
-                  retournées régulièrement pour une salaison uniforme.
-                </p>
-              </div>
-              <div className="grid grid-cols-2 gap-4">
-                <img
-                  src="https://i.postimg.cc/rFVSxh5c/IMG-7311.jpg"
-                  alt="Salaison 1"
-                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
-                />
-                <img
-                  src="https://i.postimg.cc/vmV9bCw7/IMG-7310.jpg"
-                  alt="Salaison 2"
-                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
-                />
+              <h3 className="text-3xl font-bold text-cyan-600 mb-6">
+                🧂 3. Salaison
+              </h3>
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div className="lg:col-span-1">
+                  <div className="text-lg text-slate-600 leading-relaxed space-y-3">
+                    <p>• Les poches d'œufs sont recouvertes de gros sel marin pendant quelques heures, selon leur taille.</p>
+                    <p>• Le sel aide à :</p>
+                    <ul className="ml-4 space-y-1">
+                      <li>- Déshydrater le produit,</li>
+                      <li>- Le conserver,</li>
+                      <li>- Renforcer ses arômes.</li>
+                    </ul>
+                    <p>• On retourne les rogues régulièrement pour assurer une salaison uniforme.</p>
+                  </div>
+                </div>
+                <div className="lg:col-span-2 grid grid-cols-2 gap-4">
+                  <img
+                    src="https://i.postimg.cc/rFVSxh5c/IMG-7311.jpg"
+                    alt="Salaison 1"
+                    className="w-full aspect-[4/5] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                  />
+                  <img
+                    src="https://i.postimg.cc/Hkp3Y2Fw/IMG-7310.jpg"
+                    alt="Salaison 2"
+                    className="w-full aspect-[4/5] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
               </div>
             </div>
 
             {/* Step 4 */}
             <div 
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-delay="900"
-              className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
+              className="bg-white p-8 rounded-lg shadow-lg"
             >
-              <div className="grid grid-cols-2 gap-4 lg:order-1">
-                <img
-                  src="https://i.postimg.cc/kMfV37t3/IMG-7312.jpg"
-                  alt="Désalage et rinçage 1"
-                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
-                />
-                <img
-                  src="https://i.postimg.cc/Bn1tKD74/2025-07-18-T015544-640.png"
-                  alt="Désalage et rinçage 2"
-                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="space-y-6 lg:order-2">
-                <h3 
-                  className="text-3xl font-bold text-teal-600 transform hover:scale-105 transition-transform duration-300"
-                  style={{ transform: 'perspective(1000px) rotateY(5deg)' }}
-                >
-                  💧 4. Désalage et rinçage
-                </h3>
-                <p className="text-lg text-slate-600 leading-relaxed">
-                  Après salaison, les œufs sont rincés pour enlever l'excès de sel. 
-                  Parfois un léger pressage est appliqué.
-                </p>
+              <h3 className="text-3xl font-bold text-cyan-600 mb-6">
+                💧 4. Désalage et rinçage
+              </h3>
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div className="lg:col-span-1">
+                  <div className="text-lg text-slate-600 leading-relaxed space-y-3">
+                    <p>• Après salaison, les œufs sont rincés pour enlever l'excès de sel.</p>
+                    <p>• Parfois un léger pressage est appliqué pour extraire davantage d'humidité.</p>
+                  </div>
+                </div>
+                <div className="lg:col-span-2 grid grid-cols-2 gap-4">
+                  <img
+                    src="https://i.postimg.cc/kMfV37t3/IMG-7312.jpg"
+                    alt="Désalage et rinçage 1"
+                    className="w-full aspect-[4/5] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                  />
+                  <img
+                    src="https://i.postimg.cc/Bn1tKD74/2025-07-18-T015544-640.png"
+                    alt="Désalage et rinçage 2"
+                    className="w-full aspect-[4/5] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
               </div>
             </div>
 
             {/* Step 5 */}
             <div 
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-delay="1100"
-              className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
+              className="bg-white p-8 rounded-lg shadow-lg"
             >
-              <div className="space-y-6">
-                <h3 
-                  className="text-3xl font-bold text-green-600 transform hover:scale-105 transition-transform duration-300"
-                  style={{ transform: 'perspective(1000px) rotateY(-5deg)' }}
-                >
-                  🌬 5. Séchage
-                </h3>
-                <p className="text-lg text-slate-600 leading-relaxed">
-                  Les rogues sont suspendues ou posées sur des claies... jusqu'à obtention d'une texture ferme et couleur ambrée.
-                </p>
-              </div>
-              <div className="grid grid-cols-2 gap-4">
-                <img
-                  src="https://i.postimg.cc/T1w3YWW8/IMG-7264-1.jpg"
-                  alt="Séchage 1"
-                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
-                />
-                <img
-                  src="https://i.postimg.cc/8z8NxYwg/IMG-7315.jpg"
-                  alt="Séchage 2"
-                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
-                />
+              <h3 className="text-3xl font-bold text-cyan-600 mb-6">
+                🌬 5. Séchage
+              </h3>
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div className="lg:col-span-1">
+                  <div className="text-lg text-slate-600 leading-relaxed space-y-3">
+                    <p>• Les rogues sont suspendues ou posées sur des claies dans un environnement bien ventilé.</p>
+                    <p>• Le séchage peut durer quelques jours, selon le climat et le degré de déshydratation désiré.</p>
+                    <p>• Le produit prend une texture ferme et une couleur ambrée.</p>
+                  </div>
+                </div>
+                <div className="lg:col-span-2 grid grid-cols-2 gap-4">
+                  <img
+                    src="https://i.postimg.cc/T1w3YWW8/IMG-7264-1.jpg"
+                    alt="Séchage 1"
+                    className="w-full aspect-[4/5] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                  />
+                  <img
+                    src="https://i.postimg.cc/8z8NxYwg/IMG-7315.jpg"
+                    alt="Séchage 2"
+                    className="w-full aspect-[4/5] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
               </div>
             </div>
 
             {/* Step 6 */}
             <div 
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-delay="1300"
-              className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
+              className="bg-white p-8 rounded-lg shadow-lg"
             >
-              <div className="grid grid-cols-2 gap-4 lg:order-1">
-                <img
-                  src="https://i.postimg.cc/NM0c1vGm/IMG-7212.jpg"
-                  alt="Produit final 1"
-                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
-                />
-                <img
-                  src="https://i.postimg.cc/qRqPNcQG/IMG-7265-1.jpg"
-                  alt="Produit final 2"
-                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="space-y-6 lg:order-2">
-                <h3 
-                  className="text-3xl font-bold text-purple-600 transform hover:scale-105 transition-transform duration-300"
-                  style={{ transform: 'perspective(1000px) rotateY(5deg)' }}
-                >
-                  🧱 6. Produit final — bottarga prête
-                </h3>
-                <p className="text-lg text-slate-600 leading-relaxed">
-                  La boutargue est sèche, colorée, ferme et prête à être consommée — enrobée de cire ou sous vide.
-                </p>
-                <div className="bg-gradient-to-r from-cyan-600 to-blue-600 text-white p-6 rounded-lg shadow-lg">
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-yellow-300 mb-2">Premium</div>
-                    <div className="text-cyan-100">Qualité Export</div>
+              <h3 className="text-3xl font-bold text-cyan-600 mb-6">
+                🧱 6. Produit final — bottarga prête
+              </h3>
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div className="lg:col-span-1">
+                  <p className="text-lg text-slate-600 leading-relaxed mb-6">
+                    Enfin, on découvre la boutargue sèche, colorée, ferme et prête à être consommée :
+                    elle peut être enrobée de cire ou emballée sous vide.
+                  </p>
+                  <div className="bg-gradient-to-r from-cyan-600 to-blue-600 text-white p-6 rounded-lg shadow-lg">
+                    <div className="text-center">
+                      <div className="text-3xl font-bold text-yellow-300 mb-2">Premium</div>
+                      <div className="text-cyan-100">Qualité Export</div>
+                    </div>
                   </div>
+                </div>
+                <div className="lg:col-span-2 grid grid-cols-2 gap-4">
+                  <img
+                    src="https://i.postimg.cc/NM0c1vGm/IMG-7212.jpg"
+                    alt="Produit final 1"
+                    className="w-full aspect-[4/5] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                  />
+                  <img
+                    src="https://i.postimg.cc/qRqPNcQG/IMG-7265-1.jpg"
+                    alt="Produit final 2"
+                    className="w-full aspect-[4/5] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
+                  />
                 </div>
               </div>
             </div>
