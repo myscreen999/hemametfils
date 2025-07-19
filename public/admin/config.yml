@@ -3,14 +3,14 @@ backend:
   branch: main
 
 media_folder: "public/images"
-public_folder: /images
+public_folder: "/images"
 
 # Enable Netlify Identity
 site_url: https://hemametfils.com
 display_url: https://hemametfils.com
 
 # Automatic publishing
-publish_mode: simple
+publish_mode: editorial_workflow
 
 collections:
   - name: "pages"
