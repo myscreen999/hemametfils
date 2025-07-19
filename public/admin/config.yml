@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: public/images
+media_folder: "public/images"
 public_folder: /images
 
 # Enable Netlify Identity
@@ -10,7 +10,7 @@ site_url: https://hemametfils.com
 display_url: https://hemametfils.com
 
 # Automatic publishing
-publish_mode: editorial_workflow
+publish_mode: simple
 
 collections:
   - name: "pages"
