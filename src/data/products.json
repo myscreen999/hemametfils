@@ -1,0 +1,77 @@
+{
+  "title": "Nos Produits",
+  "subtitle": "Œufs de mulet d'exception pour la production de boutargue, pêchés dans les eaux riches de l'Atlantique mauritanien",
+  "hero_image": "https://i.postimg.cc/YqC9FMqg/c64f08be87cdf35432a6372f2a5cf15f.jpg",
+  "products": [
+    {
+      "name": "Œufs de Mulet (Boutargue)",
+      "description": "Œufs de mulet premium soigneusement sélectionnés pour la production de boutargue de qualité exceptionnelle.",
+      "image": "https://i.postimg.cc/x8Zxj91H/IMG-4902.jpg",
+      "features": [
+        "Qualité premium",
+        "Sélection rigoureuse",
+        "Export international"
+      ]
+    },
+    {
+      "name": "Thiof (Mérou Blanc)",
+      "description": "Spécialité mauritanienne, poisson de référence aux chairs blanches et fermes",
+      "image": "https://i.postimg.cc/gJw9ptYx/0dbe7d7f6df4d373a5b3390b6618a860.jpg",
+      "features": [
+        "Poisson emblématique",
+        "Chair délicate",
+        "Export premium"
+      ]
+    },
+    {
+      "name": "Sépia",
+      "description": "Seiches fraîches de qualité premium, pêchées dans nos zones privilégiées",
+      "image": "https://i.postimg.cc/gctHQqPs/IMG-7266.jpg",
+      "features": [
+        "Fraîcheur garantie",
+        "Qualité premium",
+        "Conditionnement optimal"
+      ]
+    },
+    {
+      "name": "Poulpe",
+      "description": "Poulpe frais de qualité exceptionnelle, pêché artisanalement",
+      "image": "https://i.postimg.cc/yYZSGc5K/2025-07-18-T105558-369.png",
+      "features": [
+        "Texture parfaite",
+        "Pêche artisanale",
+        "Fraîcheur optimale"
+      ]
+    },
+    {
+      "name": "Rouget",
+      "description": "Rouget de roche aux chairs délicates, pêché dans nos eaux privilégiées",
+      "image": "https://i.postimg.cc/DZFxf2Cc/IMG-7268.jpg",
+      "features": [
+        "Chair délicate",
+        "Pêche sélective",
+        "Qualité premium"
+      ]
+    },
+    {
+      "name": "Sole",
+      "description": "Sole fraîche de qualité exceptionnelle, poisson plat aux saveurs raffinées",
+      "image": "https://i.postimg.cc/7Lwp5hkk/ppf-Fresc-Llenguado.jpg",
+      "features": [
+        "Saveur raffinée",
+        "Texture unique",
+        "Pêche durable"
+      ]
+    },
+    {
+      "name": "Langoustes",
+      "description": "Langoustes vivantes et fraîches, spécialité des côtes mauritaniennes",
+      "image": "https://i.postimg.cc/sg3ncSGM/9c33a73a95f92c2a9ca9be6f00d321ce.jpg",
+      "features": [
+        "Produit haut de gamme",
+        "Transport vivant",
+        "Qualité export"
+      ]
+    }
+  ]
+}

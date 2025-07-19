@@ -1,0 +1,62 @@
+{
+  "title": "La Poutargue",
+  "subtitle": "Un produit d'exception obtenu à partir d'œufs de mulet soigneusement extraits, salés puis séchés selon un procédé artisanal",
+  "hero_image": "https://i.postimg.cc/9f4fzpb7/Boutargue-Poutargue-Mulet-300x300.jpg",
+  "main_description": "La poutargue est un produit d'exception obtenu à partir d'œufs de mulet soigneusement extraits, salés puis séchés selon un procédé artisanal. Ce met délicat se distingue par son goût unique et sa richesse en saveurs marines.",
+  "production_steps": [
+    {
+      "step": "1",
+      "title": "🐟 1. Récolte des œufs de mulet (mulet femelle)",
+      "description": "L'ovaire contenant les œufs est prélevé intact sur le poisson (généralement le mulet noir ou mulet jaune).\nIl est crucial de ne pas abîmer la poche d'œufs (la rogue) pendant la récolte.",
+      "images": [
+        "https://i.postimg.cc/YSqVPfcw/IMG-7313.jpg",
+        "https://i.postimg.cc/bvCMfD8S/IMG-7317.jpg"
+      ]
+    },
+    {
+      "step": "2",
+      "title": "📦 2. Classement / Tri",
+      "description": "Le tri des œufs de mulet par calibre (taille/poids) est une étape essentielle dans la production de boutargue artisanale de qualité, surtout pour assurer un séchage homogène et une présentation uniforme.",
+      "images": [
+        "https://i.postimg.cc/pXCJSNPp/39bb1b8f-78d8-4816-9025-d908daef55bd.jpg",
+        "https://i.postimg.cc/9f6d9CYN/fbd3eb81-b08a-42d2-8646-21b1e0327d06.jpg"
+      ]
+    },
+    {
+      "step": "3",
+      "title": "🧂 3. Salaison",
+      "description": "• Les poches d'œufs sont recouvertes de gros sel marin pendant quelques heures, selon leur taille.\n• Le sel aide à :\n  - Déshydrater le produit,\n  - Le conserver,\n  - Renforcer ses arômes.\n• On retourne les rogues régulièrement pour assurer une salaison uniforme.",
+      "images": [
+        "https://i.postimg.cc/rFVSxh5c/IMG-7311.jpg",
+        "https://i.postimg.cc/Hkp3Y2Fw/IMG-7310.jpg"
+      ]
+    },
+    {
+      "step": "4",
+      "title": "💧 4. Désalage et rinçage",
+      "description": "• Après salaison, les œufs sont rincés pour enlever l'excès de sel.\n• Parfois un léger pressage est appliqué pour extraire davantage d'humidité.",
+      "images": [
+        "https://i.postimg.cc/kMfV37t3/IMG-7312.jpg",
+        "https://i.postimg.cc/Bn1tKD74/2025-07-18-T015544-640.png"
+      ]
+    },
+    {
+      "step": "5",
+      "title": "🌬 5. Séchage",
+      "description": "• Les rogues sont suspendues ou posées sur des claies dans un environnement bien ventilé.\n• Le séchage peut durer quelques jours, selon le climat et le degré de déshydratation désiré.\n• Le produit prend une texture ferme et une couleur ambrée.",
+      "images": [
+        "https://i.postimg.cc/T1w3YWW8/IMG-7264-1.jpg",
+        "https://i.postimg.cc/8z8NxYwg/IMG-7315.jpg"
+      ]
+    },
+    {
+      "step": "6",
+      "title": "🧱 6. Produit final — bottarga prête",
+      "description": "Enfin, on découvre la boutargue sèche, colorée, ferme et prête à être consommée :\nelle peut être enrobée de cire ou emballée sous vide.",
+      "images": [
+        "https://i.postimg.cc/NM0c1vGm/IMG-7212.jpg",
+        "https://i.postimg.cc/qRqPNcQG/IMG-7265-1.jpg"
+      ]
+    }
+  ]
+}

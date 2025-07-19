@@ -7,9 +7,21 @@
     <meta name="description" content="HEMAM & FILS - Entreprise de pêche artisanale et export d'œufs de mulet (boutargue) en Mauritanie. 10+ années d'expérience, flotte de 65 pirogues, licence CEE depuis 2003." />
     <meta name="keywords" content="pêche artisanale, export œufs de mulet, boutargue, poutargue, Mauritanie, HEMAM FILS" />
     <title>HEMAM & FILS - Pêche Artisanale & Export Boutargue | Mauritanie</title>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>

@@ -1,0 +1,110 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/images
+public_folder: /images
+
+# Enable Netlify Identity
+site_url: https://hemametfils.com
+display_url: https://hemametfils.com
+
+# Automatic publishing
+publish_mode: editorial_workflow
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/data/home.json"
+        label: "Page d'Accueil"
+        name: "home"
+        fields:
+          - { label: "Titre Principal", name: "hero_title", widget: "string" }
+          - { label: "Sous-titre", name: "hero_subtitle", widget: "text" }
+          - { label: "Description", name: "hero_description", widget: "text" }
+          - { label: "Image Hero", name: "hero_image", widget: "image" }
+          - label: "Statistiques"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Valeur", name: "value", widget: "number" }
+              - { label: "Suffixe", name: "suffix", widget: "string", required: false }
+              - { label: "Label", name: "label", widget: "string" }
+
+      - file: "src/data/about.json"
+        label: "Notre Histoire"
+        name: "about"
+        fields:
+          - { label: "Titre Principal", name: "title", widget: "string" }
+          - { label: "Sous-titre", name: "subtitle", widget: "text" }
+          - { label: "Image Hero", name: "hero_image", widget: "image" }
+          - { label: "Histoire - Titre", name: "story_title", widget: "string" }
+          - { label: "Histoire - Contenu", name: "story_content", widget: "markdown" }
+          - { label: "Image Histoire", name: "story_image", widget: "image" }
+
+      - file: "src/data/products.json"
+        label: "Nos Produits"
+        name: "products"
+        fields:
+          - { label: "Titre Principal", name: "title", widget: "string" }
+          - { label: "Sous-titre", name: "subtitle", widget: "text" }
+          - { label: "Image Hero", name: "hero_image", widget: "image" }
+          - label: "Produits"
+            name: "products"
+            widget: "list"
+            fields:
+              - { label: "Nom", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+              - label: "Caractéristiques"
+                name: "features"
+                widget: "list"
+                field: { label: "Caractéristique", name: "feature", widget: "string" }
+
+      - file: "src/data/boutargue.json"
+        label: "Boutargue"
+        name: "boutargue"
+        fields:
+          - { label: "Titre Principal", name: "title", widget: "string" }
+          - { label: "Sous-titre", name: "subtitle", widget: "text" }
+          - { label: "Image Hero", name: "hero_image", widget: "image" }
+          - { label: "Description Principale", name: "main_description", widget: "markdown" }
+          - label: "Processus de Production"
+            name: "production_steps"
+            widget: "list"
+            fields:
+              - { label: "Étape", name: "step", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "markdown" }
+              - label: "Images"
+                name: "images"
+                widget: "list"
+                field: { label: "Image", name: "image", widget: "image" }
+
+      - file: "src/data/contact.json"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - { label: "Titre Principal", name: "title", widget: "string" }
+          - { label: "Sous-titre", name: "subtitle", widget: "text" }
+          - { label: "Image Hero", name: "hero_image", widget: "image" }
+          - { label: "Email Principal", name: "email", widget: "string" }
+          - { label: "Téléphone Mauritanie", name: "phone_mauritania", widget: "string" }
+          - { label: "Téléphone Canada", name: "phone_canada", widget: "string" }
+          - { label: "WhatsApp", name: "whatsapp", widget: "string" }
+          - { label: "Adresse", name: "address", widget: "text" }
+          - { label: "Instagram URL", name: "instagram_url", widget: "string" }
+          - { label: "Facebook URL", name: "facebook_url", widget: "string" }
+
+  - name: "settings"
+    label: "Paramètres"
+    files:
+      - file: "src/data/site.json"
+        label: "Paramètres du Site"
+        name: "site"
+        fields:
+          - { label: "Nom du Site", name: "site_name", widget: "string" }
+          - { label: "Description", name: "site_description", widget: "text" }
+          - { label: "Logo", name: "logo", widget: "image" }
+          - { label: "Favicon", name: "favicon", widget: "image" }

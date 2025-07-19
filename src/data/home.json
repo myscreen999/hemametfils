@@ -1,0 +1,28 @@
+{
+  "hero_title": "HEMAM & FILS",
+  "hero_subtitle": "Excellence en Pêche Artisanale & Export d'Œufs de Mulet",
+  "hero_description": "Plus de 10 ans d'expérience avec une flotte de 65 pirogues équipées de moteurs Tohatsu éco-responsables",
+  "hero_image": "https://i.postimg.cc/T2JGj9Bk/img-catalogue.png",
+  "stats": [
+    {
+      "value": 10,
+      "suffix": "+",
+      "label": "Années d'Expérience"
+    },
+    {
+      "value": 65,
+      "suffix": "",
+      "label": "Pirogues"
+    },
+    {
+      "value": 8,
+      "suffix": "+",
+      "label": "Pays"
+    },
+    {
+      "value": 100,
+      "suffix": " Tonnes",
+      "label": "d'Œufs de Mulet/An"
+    }
+  ]
+}
