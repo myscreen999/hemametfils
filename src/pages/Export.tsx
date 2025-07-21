@@ -333,13 +333,13 @@ const Export = () => {
               className="flex flex-col sm:flex-row gap-4 justify-center"
             >
               <a
-                href="tel:+22242666618"
+                href="tel:+22220161612"
                 className="bg-cyan-600 hover:bg-cyan-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 inline-flex items-center justify-center space-x-2"
               >
-                <span>+222 42 66 66 18</span>
+                <span>+222 20 16 16 12</span>
               </a>
               <a
-                href="mailto:export@lemamfils.mr"
+                href="mailto:info@hemametfils.com"
                 className="border-2 border-cyan-600 hover:bg-cyan-600 hover:text-white text-cyan-600 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105"
               >
                 Email Export
