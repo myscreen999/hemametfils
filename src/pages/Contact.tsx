@@ -298,7 +298,7 @@ const Contact = () => {
               <span>+15143485432</span>
             </a>
             <a
-              href="https://wa.me/15143485432"
+              href="https://wa.me/22220161612"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 inline-flex items-center justify-center space-x-2"
