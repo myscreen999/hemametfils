@@ -80,16 +80,20 @@ const Contact = () => {
                     </div>
                   </div>
 
-                  <div className="flex items-start space-x-4">
-                    <div className="bg-blue-50 p-3 rounded-lg">
-                      <Mail className="text-blue-600" size={24} />
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-semibold text-slate-800 mb-2">Email</h3>
-                      <p className="text-slate-600 mb-1">📧 info@hemametfils.com</p>
-                      <p className="text-sm text-slate-500">Réponse sous 24h</p>
-                    </div>
-                  </div>
+                 <div className="flex items-start space-x-4">
+  <div className="bg-blue-50 p-3 rounded-lg">
+    <Mail className="text-blue-600" size={24} />
+  </div>
+  <div>
+    <h3 className="text-xl font-semibold text-slate-800 mb-2">Email</h3>
+    <p className="text-slate-600 mb-1">
+      📧 <a href="mailto:info@hemametfils.com" className="text-blue-600 hover:underline">
+        info@hemametfils.com
+      </a>
+    </p>
+    <p className="text-sm text-slate-500">Réponse sous 24h</p>
+  </div>
+</div>
 
                   <div className="flex items-start space-x-4">
                     <div className="bg-green-50 p-3 rounded-lg">
